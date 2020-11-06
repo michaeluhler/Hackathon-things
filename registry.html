@@ -1,0 +1,25 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>Registry</title>
+    <meta name="description" content="The HTML5 Herald">
+    <meta name="author" content="SitePoint">
+
+    <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+</head>
+
+<body>
+    <form action="register" method="post"></form>
+    {% crsf_token %}
+    <input type="text" name="first_name" placeholder="First Name" /><br />
+    <input type="text" name="last_name" placeholder="Last Name" /><br />
+    <input type="email" name="email" placeholder="email" /><br />
+    <input type="text" name="password1" placeholder="Password" /><br />
+    <input type="text" name="password2" placeholder="Confirm Password" /><br />
+    <input type="Submit" />
+</body>
+</html>
