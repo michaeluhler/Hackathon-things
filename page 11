@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+<img src="touchup.jpeg" alt="touchup">
+
+<h2> Saint Peter's University</h2>
+<p>Saint Peter's University is a private Jesuit university in Jersey City, New Jersey.
+It was founded as Saint Peter's College in 1872 by the Society of Jesus.
+It offers over 60 undergraduate and graduate programs to more than 2,600 undergraduate and 800 graduate students.
+Its college mascot is the Peacock and its sports teams play in the Metro Atlantic Athletic Conference, of which it is a founding member.</p>
+
+
+
+<form action="/action_page.php">
+  <input type="file" id="myFile" name="filename">
+  <input type="submit">
+</form>
+<input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+<p>Click on the "Choose File" button to upload a file:</p>
+
+</body>
+</html>
